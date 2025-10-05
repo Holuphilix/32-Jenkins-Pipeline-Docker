@@ -136,7 +136,7 @@ Congratulations, You have successfully run your first pipeline code.
 This builds a lightweight **NGINX** container serving a simple web page as a deployment target for the Jenkins pipeline.
 
 **Screenshot:** Web Access Page
-![CI/CD Test Run](./images/1.website_acess.png)
+![Web Access Page](./Images/1.website_acess.png)
 
 ## 🔗 GitHub Integration
 
