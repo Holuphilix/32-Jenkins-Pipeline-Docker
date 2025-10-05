@@ -135,6 +135,9 @@ Congratulations, You have successfully run your first pipeline code.
 
 This builds a lightweight **NGINX** container serving a simple web page as a deployment target for the Jenkins pipeline.
 
+**Screenshot:** Web Access Page
+![CI/CD Test Run](./images/1.website_acess.png)
+
 ## 🔗 GitHub Integration
 
 * Connect your GitHub repository to Jenkins via **webhook** (`Settings → Webhooks`).
@@ -176,6 +179,55 @@ Contributions are welcome!
 3. **Commit your changes** (`git commit -m "Add new feature"`)
 4. **Push** to your branch (`git push origin feature-name`)
 5. **Open a Pull Request**
+
+## 🚀 Steps to Push Your Project to GitHub
+
+### 1. Initialize Git
+
+In your project directory (for example `jenkins-pipeline-docker`):
+
+```bash
+cd ~/Documents/DevOps_WorkSpace_Projects/jenkins-pipeline-docker
+git init
+```
+
+### 2. Add Your Files
+
+```bash
+git add .
+```
+
+### 3. Commit Your Changes
+
+```bash
+git commit -m "Initial commit: Jenkins Pipeline with Docker Integration"
+```
+
+### 4. Create a New Repository on GitHub
+
+1. Go to [GitHub](https://github.com/new)
+2. Enter repository name:
+   👉 **jenkins-pipeline-docker**
+3. Keep it **Public** (recommended for learning projects)
+4. **Do not** initialize with README or license — since you already have one.
+5. Click **Create Repository**
+
+### 5. Link Local Repo to GitHub
+
+Copy the HTTPS of your new repo, then run:
+
+#### Using HTTPS:
+
+```bash
+git remote add origin https://github.com/Holuphilix/32-Jenkins-Pipeline-Docker.git
+```
+
+### 6. Push to GitHub
+
+```bash
+git branch -M main
+git push -u origin main
+```
 
 ## 👨‍💻 Author
 
